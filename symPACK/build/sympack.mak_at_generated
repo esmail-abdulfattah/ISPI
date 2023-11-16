@@ -1,0 +1,10 @@
+SYMPACK_DIR = /home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/install
+
+SYMPACK_INCLUDE = -I${SYMPACK_DIR}/include
+
+SYMPACK_INCLUDE += -I/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/include -I/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build -I/usr/bin/sympack/parmetis-4.0.3/install/include -I/usr/bin/sympack/parmetis-4.0.3/install/include -I/home/abdulfe/donttouch/scotch_6.1.0/install/include -I/usr/bin/sympack/upcxx-2023.3.0/install/include -I/usr/bin/sympack/upcxx-2023.3.0/install/upcxx.opt.gasnet_seq.mpi/gen_include -I/usr/bin/sympack/upcxx-2023.3.0/install/gasnet.opt/include -I/usr/bin/sympack/upcxx-2023.3.0/install/gasnet.opt/include/mpi-conduit
+SYMPACK_DEFINITIONS += -DRCMIDXSIZE=32 -DMMDIDXSIZE=32 -DAMDIDXSIZE=32 -DITREE -D_DSW_ITREE_ -DUSE_PARMETIS -DUSE_METIS -DUSE_SCOTCH -DUPCXXI_ASSERT_ENABLED=0 -DUPCXXI_BACKEND=1 -DUPCXXI_BACKEND_GASNET_SEQ=1 -D_GNU_SOURCE=1 -DGASNET_SEQ
+
+SYMPACK_LIB = /opt/intel/oneapi/mkl/2023.2.0/lib/intel64/libmkl_gf_lp64.so /opt/intel/oneapi/mkl/2023.2.0/lib/intel64/libmkl_gnu_thread.so /opt/intel/oneapi/mkl/2023.2.0/lib/intel64/libmkl_core.so /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so -lm -ldl -lrt
+
+

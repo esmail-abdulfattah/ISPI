@@ -1,0 +1,18 @@
+Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeeded with the following output:
+Change Dir: /home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11123/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11123.dir/build.make CMakeFiles/cmTC_11123.dir/build
+gmake[1]: Entering directory '/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11123.dir/src.c.o
+/usr/bin/mpicc -DC_SUPPORTS_DOLLAR   -o CMakeFiles/cmTC_11123.dir/src.c.o -c /home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_11123
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11123.dir/link.txt --verbose=1
+/usr/bin/mpicc -Wl,--start-group -Wl,--end-group  CMakeFiles/cmTC_11123.dir/src.c.o -o cmTC_11123 
+gmake[1]: Leaving directory '/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+extern int dollar$(void);
+int main() { return 0; }
+

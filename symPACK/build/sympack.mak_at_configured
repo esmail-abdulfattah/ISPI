@@ -1,0 +1,10 @@
+SYMPACK_DIR = /home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/install
+
+SYMPACK_INCLUDE = -I${SYMPACK_DIR}/include
+
+SYMPACK_INCLUDE += $<$<BOOL:$<TARGET_PROPERTY:sympack,INTERFACE_INCLUDE_DIRECTORIES>>:-I$<JOIN:$<TARGET_PROPERTY:sympack,INTERFACE_INCLUDE_DIRECTORIES>, -I>>
+SYMPACK_DEFINITIONS += $<$<BOOL:$<TARGET_PROPERTY:sympack,INTERFACE_COMPILE_DEFINITIONS>>:-D$<JOIN:$<TARGET_PROPERTY:sympack,INTERFACE_COMPILE_DEFINITIONS>, -D>>
+
+SYMPACK_LIB = /opt/intel/oneapi/mkl/2023.2.0/lib/intel64/libmkl_gf_lp64.so /opt/intel/oneapi/mkl/2023.2.0/lib/intel64/libmkl_gnu_thread.so /opt/intel/oneapi/mkl/2023.2.0/lib/intel64/libmkl_core.so /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so -lm -ldl -lrt
+
+

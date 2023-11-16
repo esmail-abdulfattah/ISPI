@@ -1,0 +1,1 @@
+/usr/bin/mpic++ -O3 -DNDEBUG -Wl,--start-group -Wl,--end-group CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -o VerifyFortranC  libVerifyFortran.a -lmpichfort -lgfortran -lquadmath 

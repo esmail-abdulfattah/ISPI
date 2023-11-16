@@ -1,0 +1,8 @@
+*.d
+*.a
+*.o
+*.mod
+logPEXSI*
+*.out
+external/*
+*.swp

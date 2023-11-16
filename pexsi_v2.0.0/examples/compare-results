@@ -1,0 +1,10 @@
+I have three matrices:
+
+1. Q_pardiso_csr_num_101_dim_8763.bin  of "- Determinant is  22962.2647519257" // "- inv[1,1] is  50.6008947250096"
+2. Q_pardiso_csr_num_101_dim_14501.bin of "- Determinant is  30280.0886820849"
+3. Q_pardiso_csr_num_101_dim_84263.bin of "- Determinant is  98708.162549167"
+
+
+1. Q_pardiso_csr_num_202_dim_8763.bin  of "- Determinant is  26946.7955815816" // "- inv[1,1] is  1.26434994503191"
+2. Q_pardiso_csr_num_202_dim_14501.bin of "- Determinant is  34267.1817192634"
+3. Q_pardiso_csr_num_202_dim_84263.bin of "- Determinant is  102886.109988544"

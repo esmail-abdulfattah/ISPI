@@ -1,0 +1,16 @@
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/run_sympack.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/examples.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/edit_cache.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/rebuild_cache.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/list_install_components.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/install.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/install/local.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/CMakeFiles/install/strip.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/src/CMakeFiles/sympack.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/src/CMakeFiles/run_sympack2D.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/src/CMakeFiles/edit_cache.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/src/CMakeFiles/rebuild_cache.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/src/CMakeFiles/list_install_components.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/src/CMakeFiles/install.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/src/CMakeFiles/install/local.dir
+/home/abdulfe/donttouch/pexsi_sympack_last_test/symPACK/build/src/CMakeFiles/install/strip.dir
